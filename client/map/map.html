@@ -1,0 +1,12 @@
+<head>
+  <title>map-demo</title>
+</head>
+
+<body>
+{{> loginButtons}}
+{{#if currentUser}}
+  <div class="map-container">
+      {{> googleMap name="map" options=mapOptions}}
+  </div>
+{{/if}}
+</body>

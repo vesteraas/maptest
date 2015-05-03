@@ -48,3 +48,9 @@ crashlytics.properties
 crashlytics-build.properties
 
 
+
+### Meteor template
+.meteor/local
+.meteor/versions
+.meteor/.id
+.meteor/platforms
